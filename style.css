@@ -6,6 +6,10 @@ body{
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     text-align: center;
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185deg, 75%, 39%);
 }
 
 .p1-text{
@@ -15,12 +19,18 @@ body{
 
 .p2-text{
     color: hsl(227, 10%, 46%);
+    height: 100%;
     font-size: small;
+}
+
+
+.top-section{
+    margin-top: 3em;
 }
 
 .overlay{
     position: absolute;
-    top: 33%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
